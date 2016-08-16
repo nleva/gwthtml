@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ru.send-to.gwt.html</groupId>
 	<artifactId>HtmlGwt</artifactId>
-	<version>0.3.1-SNAPSHOT</version>
+	<version>0.3.1</version>
 	<packaging>jar</packaging>
 	<name>HtmlGwt</name>
 	<description>GWT widget set for html in UiBinder</description>
