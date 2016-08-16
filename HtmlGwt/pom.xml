@@ -23,6 +23,7 @@
 		</license>
 	</licenses>
  
+ 
 	<scm>
 		<url>https://github.com/nleva/gwthtml</url>
 		<connection>scm:git:git://github.com/nleva/gwthtml.git</connection>
