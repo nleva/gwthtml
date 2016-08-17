@@ -27,7 +27,7 @@
 
 	<scm>
 		<url>https://github.com/nleva/gwthtml</url>
-		<connection>scm:git:git@github.com:nleva/gwthtml.git</connection>
+		<connection>scm:git:https://github.com/nleva/gwthtml.git</connection>
 		<!-- <developerConnection>scm:git:https://github.com/nleva/gwthtml.git</developerConnection> -->
 	</scm>
 
