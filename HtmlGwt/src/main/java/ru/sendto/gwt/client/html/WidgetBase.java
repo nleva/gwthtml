@@ -313,8 +313,13 @@ public class WidgetBase extends ComplexPanel implements HasChangeHandlers {
 		setContentEditable(getElement(), b);
 	}
 
-	void setTabIndex(int i){
+	public void setTabIndex(int i){
 		getElement().setTabIndex(i);
 	}
+	
+	public void setRequired(boolean b){
+		getElement().setAttribute("required", b+"");
+	}
+	
 
 }
