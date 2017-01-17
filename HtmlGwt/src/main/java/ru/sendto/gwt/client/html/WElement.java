@@ -1,5 +1,8 @@
 package ru.sendto.gwt.client.html;
 
+import elemental.events.EventListener;
+import elemental.events.EventRemover;
+
 public class WElement extends com.google.gwt.user.client.Element {
 	
 //	WidgetBase base;
@@ -24,18 +27,14 @@ public class WElement extends com.google.gwt.user.client.Element {
 		return getWidgetBase(this);
 	}
 	
-	/*public final void setWidget(Widget w){
-		wrap(w,this);
-	}*/
-	
-	/*public final Widget getWidget(){
-		return logicMap.get(this);
-	}
-	
-	public static void wrap(Widget w, WElement e){
-		logicMap.put(e, w);
-	}*/
-	
+	public native final EventRemover addEventListener(String type, EventListener listener, boolean useCapture)/*-{
+		return this.addEventListener(type, listener.@elemental.events.EventListener::handleEvent(Lelemental/events/Event;), useCapture);
+	}-*/;
+
+	public native final EventRemover addEventListener(String type, EventListener listener)/*-{
+		return this.addEventListener(type, listener.@elemental.events.EventListener::handleEvent(Lelemental/events/Event;));
+	}-*/;
+
 	
 	  /**
 	   * Generators a native dom click on the element.
