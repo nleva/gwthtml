@@ -30,8 +30,8 @@ ru/sendto/gwt/client/html/Video.class
 ru/sendto/gwt/client/html/Div.class
 ru/sendto/gwt/client/html/Td.class
 ru/sendto/gwt/client/html/ForeignObject.class
-ru/sendto/gwt/client/html/Span.class
 ru/sendto/gwt/client/html/StyleFactory.class
+ru/sendto/gwt/client/html/Span.class
 ru/sendto/gwt/client/html/Main.class
 ru/sendto/gwt/client/html/SvgText.class
 ru/sendto/gwt/client/html/Input$DataList.class
